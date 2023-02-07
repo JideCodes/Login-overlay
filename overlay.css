@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi';
+    transition: all 0.6s ease;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container{
+    padding: 30px;
+    width: 600px;
+    height: fit-content;
+    background-color: white;
+    border: solid #40414f 1px;
+    border-radius: 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fef9c38b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon svg{
+    color: rgba(161,98,7);
+    width: 30px;
+    height: 30px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+#button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+button{
+    height: 37px;
+    width: 65px;
+    border-radius: 5px;
+    border: solid 1px #8e8ea06c;
+    font-size: 14px;
+    background-color: white;
+    margin-top: 20px;
+}
+h1{
+    color: #202123;
+    font-size: 1.5rem;
+}
+p{
+    color: #8e8ea0;
+    font-size: 1rem;
+    line-height: 2;
+}
+button:hover{
+    border: solid 2px rgba(0, 0, 255, 0.61);
+    transform: scale(110%);
+    cursor: pointer;
+}
